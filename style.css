@@ -1,0 +1,28 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+
+/* custom css  */
+
+
+@tailwind utilities;
+
+/* google fonts   */
+/* Global font family styles */
+/* after using this my web font family will change into gupter  */
+@layer base{
+    html{     
+                /* we only need a font family here   */
+            font-family: "Gupter", serif;
+          }
+    }
+
+@layer components{
+    .btn{
+        @apply bg-blue-600 w-48  text-white  border-8 rounded-xl  text-2xl hover:bg-yellow-400 hover:text-black  hover:border-red-800;
+    
+    }
+}

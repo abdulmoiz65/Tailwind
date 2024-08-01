@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>tailwind</title>
+</head>
+<body>
+    
+    <h1 class="text-5xl text-orange-600 uppercase text-center font-bold" >font sizing</h1>
+    <p class="text-xs">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-sm">Lorem ipsum dolor sit amet consectetur.</p>
+
+        <!-- change base 16px to 30px through tailwind.config.js file  -->
+    <p class="text-base">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-lg">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-xl">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-2xl">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-3xl">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-4xl">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-5xl">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-6xl">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="text-7xl">Lorem ipsum dolor sit amet cons</p>
+    <p class="text-8xl">Lorem ipsum dolor sit a</p>
+    <p class="text-9xl font-extralight">Lorem ipsum dolor </p>
+    
+        <h1 class="text-5xl uppercase text-lime-500 font-bold text-center py-10" >font styling</h1>
+        
+        <p class="font-sans  text-2xl" >lorem</p>
+        <p class="font-serif  text-2xl" >lorem</p>
+        <p class="font-mono text-2xl " >lorem</p>
+        <p class="font-thin text-2xl " >lorem</p>
+        <p class="font-extralight text-2xl " >lorem</p>
+        <!-- if need more then import it   -->
+        
+        <!-- other styling  -->
+        <!-- decoration is used to set the width of underline  -->
+        <p class="font-thin text-4xl text-green-500 underline decoration-yellow-500 decoration-double italic  " >lorem</p>
+        <p class="font-thin text-4xl text-green-500 underline decoration-yellow-500 decoration-double decoration-2 italic  " >lorem</p>
+        <p class="font-extralight text-2xl " >lorem</p>
+        
+        
+        <h1 class="text-5xl uppercase text-lime-500 font-bold text-center py-10" >Margins</h1>
+        <p class="mx-auto" >ABDUL MOIZ</p>   
+        <!-- max 96 -->       <p class="mx-96" >ABDUL MOIZ</p> 
+        <p class="mx-80" >ABDUL MOIZ</p>
+        <p class="mx-64" >ABDUL MOIZ</p>
+        <p class="mx-48" >ABDUL MOIZ</p>
+        <p class="mx-32" >ABDUL MOIZ</p>
+        <p class="mx-16" >ABDUL MOIZ</p>
+        <p class="mx-8" >ABDUL MOIZ</p>
+        <p class="mx-4" >ABDUL MOIZ</p>
+        <p class="mx-2" >ABDUL MOIZ</p>
+        <p class="mx-1" >ABDUL MOIZ</p>
+        <p class="mx-0" >ABDUL MOIZ</p>
+        <h1  class="text-3xl text-center text-red-600"  >Margin left</h1>
+        <p class="ml-5" >ABDUL MOIZ</p>
+        <p class="ml-96" >ABDUL MOIZ</p>
+        
+        <h1  class="text-lg  text-red-600"  >Margin left in negative</h1>
+        <p class="-ml-4" >ABDUL MOIZ</p>
+        <h1  class="text-3xl text-center text-red-600"  >Margin right</h1>
+        
+        <p class="mr-96" >ABDUL MOIZ</p>
+        <p class="mr-auto" >ABDUL MOIZ</p>
+        <h1  class="text-3xl text-center text-red-600"  >Margin top</h1>
+        <p class="mt-28" >ABDUL MOIZ</p>
+        
+        
+        <h1 class="text-5xl uppercase text-emerald-600--500 font-bold text-center py-10" >border</h1>
+        <p class="bg-red-400 w-36 h-28 border-blue-700 border-8 mb-5" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-blue-700 border-4 mb-5" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-blue-700 border-2 mb-5" >ABDUL MOIZ</p>
+        <h1 class="text-5xl uppercase text-emerald-600--500 font-bold text-center py-10" >Round</h1>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded-2xl" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded-full" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded-r-3xl" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded-l-3xl" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded-tl-full" >ABDUL MOIZ</p>
+        <p class="bg-red-400 w-36 h-28 border-green-700 border-4 mb-5 rounded-tr-full" >ABDUL MOIZ</p>
+        
+        
+        
+        <h1 class="text-5xl uppercase text-emerald-600--500 font-bold text-center py-10" >space between</h1>
+        <!-- space between is used to add spaces between the elements of the child   -->
+        <nav class="bg-black" >
+            <ul class="flex text-white   text-3xl space-x-14 ">
+                
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+            </ul>
+        </nav>
+
+        <h1 class="text-5xl uppercase text-emerald-600--500 font-bold text-center py-10" >Hover effect</h1>
+
+        
+        <div class="flex justify-center" >
+    <button class="btn" >Hover me</button>
+</div>
+
+<button class="">
+
+</button>
+
+    </body>
+</html>
